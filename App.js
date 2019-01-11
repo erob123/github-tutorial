@@ -79,9 +79,9 @@ constructor(props) {
             onPress={
 
               () => {
-                v0.6
+                //v0.6
                 Alert.alert('Your response has been recorded!');
-                
+
               }
             }
           />
