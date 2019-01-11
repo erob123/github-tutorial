@@ -38,10 +38,9 @@ constructor(props) {
         */
       } : {
         padding: 2,
-        /*v0.3
+        //v0.3
         textAlign: 'center',
         fontStyle: "italic"
-        */
       };
 
       return (
