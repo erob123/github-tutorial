@@ -31,17 +31,14 @@ constructor(props) {
 
       const style = selected ? {
         padding: 2,
-        /*v0.2
-        color: 'blue',
+        color: '',
         textAlign: 'center',
         fontWeight: 'bold'
-        */
       } : {
         padding: 2,
-        /*v0.3
+        //v0.3
         textAlign: 'center',
         fontStyle: "italic"
-        */
       };
 
       return (
@@ -80,9 +77,9 @@ constructor(props) {
             onPress={
 
               () => {
-                /*v0.6
+
                 Alert.alert('Your response has been recorded!');
-                */
+
               }
             }
           />
@@ -106,21 +103,20 @@ const styles = StyleSheet.create({
 
   paragraph: {
     margin: 24,
-    /*v0.5
+    
     fontSize: 20,
-    fontWeight: 'bold',
+    fontWeight: 'italics',
     textAlign: 'center',
-    */
+  
   },
 
   title: {
-    /*v0.4color: 'green',
+    color: 'green',
     paddingBottom: 20,
     textDecorationLine: 'underline',
     margin: 24,
     fontSize: 30,
     fontWeight: 'bold',
-    */
     textAlign: 'center',
   },
 
