@@ -4,7 +4,7 @@ import { Constants } from 'expo';
 import { RadioButtons, SegmentedControls } from 'react-native-radio-buttons';
 
 import "prop-types";
-
+//asdf
 // or any pure javascript modules available in npm
 import { Card } from 'react-native-paper';
 
