@@ -31,11 +31,9 @@ constructor(props) {
 
       const style = selected ? {
         padding: 2,
-        /*v0.2
-        color: 'blue',
+        color: '',
         textAlign: 'center',
         fontWeight: 'bold'
-        */
       } : {
         padding: 2,
         /*v0.3
