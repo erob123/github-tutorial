@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "react-native-paper": "2.2.8",
+    "react-native-radio-buttons": "1.0.0",
+    "prop-types": ">=15.5.0"
+  }
+}
