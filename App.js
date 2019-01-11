@@ -111,13 +111,12 @@ const styles = StyleSheet.create({
   },
 
   title: {
-    /*v0.4color: 'green',
+    color: 'green',
     paddingBottom: 20,
     textDecorationLine: 'underline',
     margin: 24,
     fontSize: 30,
     fontWeight: 'bold',
-    */
     textAlign: 'center',
   },
 
