@@ -36,10 +36,9 @@ constructor(props) {
         fontWeight: 'bold'
       } : {
         padding: 2,
-        /*v0.3
+        //v0.3
         textAlign: 'center',
         fontStyle: "italic"
-        */
       };
 
       return (
@@ -78,7 +77,9 @@ constructor(props) {
             onPress={
 
               () => {
+
                 Alert.alert('Your response has been recorded!');
+
               }
             }
           />
@@ -110,13 +111,12 @@ const styles = StyleSheet.create({
   },
 
   title: {
-    /*v0.4color: 'green',
+    color: 'green',
     paddingBottom: 20,
     textDecorationLine: 'underline',
     margin: 24,
     fontSize: 30,
     fontWeight: 'bold',
-    */
     textAlign: 'center',
   },
 
